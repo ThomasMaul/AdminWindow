@@ -1,0 +1,3630 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 1080,
+					"height": 663,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"stroke": "transparent"
+				},
+				"Moni_UIAction_Toolbar_1": {
+					"type": "radio",
+					"top": 0,
+					"left": 5,
+					"width": 60,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_Overview",
+					"icon": "/RESOURCES/Images/Monitor/Overview.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_2": {
+					"type": "radio",
+					"top": 0,
+					"left": 66,
+					"width": 103,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_Users",
+					"icon": "/RESOURCES/Images/Monitor/Users.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_3": {
+					"type": "radio",
+					"top": 0,
+					"left": 165,
+					"width": 109,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_Processes",
+					"icon": "/RESOURCES/Images/Monitor/Processes.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_5": {
+					"type": "radio",
+					"top": 0,
+					"left": 265,
+					"width": 90,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_Maintenance",
+					"icon": "/RESOURCES/Images/Monitor/Maintenance.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_6": {
+					"type": "radio",
+					"top": 0,
+					"left": 347,
+					"width": 117,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_S4DServer",
+					"icon": "/RESOURCES/Images/Monitor/4DServer.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_8": {
+					"type": "radio",
+					"top": 0,
+					"left": 477,
+					"width": 75,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_HTTPServer",
+					"icon": "/RESOURCES/Images/Monitor/WebServer.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_10": {
+					"type": "radio",
+					"top": 0,
+					"left": 557,
+					"width": 110,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI_D0_RealTimeMonitor",
+					"icon": "/RESOURCES/Images/Monitor/RTM.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_4": {
+					"type": "radio",
+					"top": 0,
+					"left": 673,
+					"width": 79,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI2_D0_DBMeasures",
+					"icon": "/RESOURCES/Images/Monitor/DBMeasure.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_Toolbar_7": {
+					"type": "radio",
+					"top": 0,
+					"left": 763,
+					"width": 100,
+					"height": 60,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"stroke": "#00189C",
+					"text": ":xliff:MONI2_D0_Locks",
+					"icon": "/RESOURCES/Images/Monitor/Locks.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_Toolbar_7.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle10": {
+					"type": "rectangle",
+					"top": 319,
+					"left": 526,
+					"width": 557,
+					"height": 235,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 65,
+					"left": 0,
+					"width": 1084,
+					"height": 18,
+					"sizingX": "grow",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/images/Monitor/HeaderGrey.png"
+				},
+				"Rectangle17": {
+					"type": "rectangle",
+					"top": 317,
+					"left": 0,
+					"width": 527,
+					"height": 238,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Ligne7": {
+					"type": "line",
+					"top": -172,
+					"left": 400,
+					"height": 495,
+					"visibility": "hidden",
+					"stroke": "#AAAAAA",
+					"strokeDashArray": "2 6"
+				},
+				"Ligne12": {
+					"type": "line",
+					"top": 20,
+					"left": 1084,
+					"height": 495,
+					"visibility": "hidden",
+					"stroke": "#AAAAAA",
+					"strokeDashArray": "2 6"
+				},
+				"Ligne13": {
+					"type": "line",
+					"top": 83,
+					"left": 540,
+					"height": 581,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"stroke": "#AAAAAA"
+				},
+				"Texte24": {
+					"type": "text",
+					"top": 95,
+					"left": 10,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_Machine"
+				},
+				"Texte25": {
+					"type": "text",
+					"top": 125,
+					"left": 10,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_System"
+				},
+				"Texte26": {
+					"type": "text",
+					"top": 165,
+					"left": 10,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_Processor"
+				},
+				"Moni_C_LicenceName_Header1": {
+					"type": "text",
+					"top": 333,
+					"left": 642,
+					"width": 300,
+					"height": 13,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_OVER_License"
+				},
+				"Moni_C_LicenceName_Label1": {
+					"type": "text",
+					"top": 361,
+					"left": 546,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_Name"
+				},
+				"Moni_C_LicenceTo_Label1": {
+					"type": "text",
+					"top": 394,
+					"left": 546,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_LicencedTo"
+				},
+				"Moni_AppServerMax4DLabel1": {
+					"type": "text",
+					"top": 463,
+					"left": 547,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_ApplicationServer"
+				},
+				"Moni_AppServerMaxSQLLabel1": {
+					"type": "text",
+					"top": 483,
+					"left": 547,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_SQLServer"
+				},
+				"Moni_AppServerMaxWebLabel1": {
+					"type": "text",
+					"top": 503,
+					"left": 547,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_WebServer"
+				},
+				"Moni_AppServerMaxSoapLabel1": {
+					"type": "text",
+					"top": 523,
+					"left": 547,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_SOAPServer"
+				},
+				"Moni_AppServerMaxHeader1": {
+					"type": "text",
+					"top": 441,
+					"left": 632,
+					"width": 300,
+					"height": 13,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_OVER_MaximumConnections"
+				},
+				"Texte27": {
+					"type": "text",
+					"top": 185,
+					"left": 10,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI2_Cores"
+				},
+				"Variable20": {
+					"type": "input",
+					"top": 95,
+					"left": 150,
+					"width": 374,
+					"height": 28,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_Machine",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable21": {
+					"type": "input",
+					"top": 125,
+					"left": 150,
+					"width": 374,
+					"height": 15,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_System",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable22": {
+					"type": "input",
+					"top": 165,
+					"left": 150,
+					"width": 374,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_Processor",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable23": {
+					"type": "input",
+					"top": 185,
+					"left": 150,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_Cores",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable24": {
+					"type": "input",
+					"top": 349,
+					"left": 10,
+					"width": 517,
+					"height": 197,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_Info_Disk",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_AppServerMax4D1": {
+					"type": "input",
+					"top": 463,
+					"left": 687,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_MaxConnect4D",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_AppServerMaxSQL1": {
+					"type": "input",
+					"top": 483,
+					"left": 687,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_MaxConnectSQL",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_AppServerMaxWeb1": {
+					"type": "input",
+					"top": 503,
+					"left": 687,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_MaxConnectWeb",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_AppServerMaxSoap1": {
+					"type": "input",
+					"top": 523,
+					"left": 687,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_MaxConnectSOAP",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_C_LicenceName1": {
+					"type": "input",
+					"top": 361,
+					"left": 686,
+					"width": 245,
+					"height": 31,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_LicenceName",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_C_LicenceTo1": {
+					"type": "input",
+					"top": 394,
+					"left": 686,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_LicenceTo",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Ligne14": {
+					"type": "line",
+					"top": -121,
+					"left": 150,
+					"height": 495,
+					"visibility": "hidden",
+					"stroke": "#AAAAAA",
+					"strokeDashArray": "2 6"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 327,
+					"left": 10,
+					"width": 435,
+					"height": 15,
+					"stroke": "#000000",
+					"textAlign": "center",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_OVER_HardDrive"
+				},
+				"Texte29": {
+					"type": "text",
+					"top": 66,
+					"left": 557,
+					"width": 527,
+					"height": 17,
+					"sizingX": "move",
+					"stroke": "#FFFFFF",
+					"textAlign": "left",
+					"text": ":xliff:MONI_OVER_ApplicationInformation"
+				},
+				"Texte30": {
+					"type": "text",
+					"top": 66,
+					"left": 10,
+					"width": 300,
+					"height": 13,
+					"stroke": "#FFFFFF",
+					"textAlign": "left",
+					"text": ":xliff:MONI_OVER_SystemInformation"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 145,
+					"left": 11,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI2_Uptime"
+				},
+				"Variable8": {
+					"type": "input",
+					"top": 145,
+					"left": 151,
+					"width": 245,
+					"height": 15,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_Uptime",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte9": {
+					"type": "text",
+					"top": 223,
+					"left": 11,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_IPAddress"
+				},
+				"Variable9": {
+					"type": "input",
+					"top": 223,
+					"left": 151,
+					"width": 384,
+					"height": 80,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_IPaddress",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable10": {
+					"type": "input",
+					"top": 95,
+					"left": 697,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_Info_Version",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"VolumeShadowCopy.var2": {
+					"type": "input",
+					"top": 115,
+					"left": 697,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_VolumeShadowCopy",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte10": {
+					"type": "text",
+					"top": 95,
+					"left": 557,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_Version"
+				},
+				"VolumeShadowCopy.label2": {
+					"type": "text",
+					"top": 115,
+					"left": 557,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_VolumeShadowCopy"
+				},
+				"VolumeShadowCopy.Icon": {
+					"type": "picture",
+					"top": 110,
+					"left": 933,
+					"width": 18,
+					"height": 18,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/alert.png"
+				},
+				"Texte11": {
+					"type": "text",
+					"top": 205,
+					"left": 10,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_OVER_Memory"
+				},
+				"Variable11": {
+					"type": "input",
+					"top": 205,
+					"left": 150,
+					"width": 374,
+					"height": 15,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_C_Memory",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable12": {
+					"type": "input",
+					"top": 137,
+					"left": 697,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_App_Uptime",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte12": {
+					"type": "text",
+					"top": 137,
+					"left": 557,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_S4D_Uptime"
+				},
+				"Variable13": {
+					"type": "input",
+					"top": 158,
+					"left": 697,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_App_CPU",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte13": {
+					"type": "text",
+					"top": 158,
+					"left": 557,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_GRAPH_GraphOpt1"
+				},
+				"Variable14": {
+					"type": "input",
+					"top": 179,
+					"left": 697,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_NetIn",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte15": {
+					"type": "text",
+					"top": 179,
+					"left": 557,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI2_OVER_Receivedsec"
+				},
+				"Variable15": {
+					"type": "input",
+					"top": 200,
+					"left": 697,
+					"width": 245,
+					"height": 13,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.system.MONI_NetOut",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte16": {
+					"type": "text",
+					"top": 200,
+					"left": 557,
+					"width": 135,
+					"height": 13,
+					"textAlign": "right",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI2_OVER_Sentsec"
+				},
+				"Schaltfläche": {
+					"type": "button",
+					"top": 612,
+					"left": 848,
+					"width": 203,
+					"height": 31,
+					"text": ":xliff:MONI2_Copy",
+					"focusable": false,
+					"method": "ObjectMethods/Schaltfläche.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Moni_UIAction_UsersMessage": {
+					"type": "button",
+					"top": 603,
+					"left": 347,
+					"width": 120,
+					"height": 52,
+					"sizingY": "move",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_USERS_SendMessage",
+					"icon": "/RESOURCES/Images/Monitor/SendMessage.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_UsersMessage.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_UsersProcesses": {
+					"type": "button",
+					"top": 603,
+					"left": 467,
+					"width": 120,
+					"height": 52,
+					"sizingY": "move",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_USERS_WatchProcesses",
+					"icon": "/RESOURCES/Images/Monitor/WatchProcesses.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_UsersProcesses.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_UsersDeconnect": {
+					"type": "button",
+					"top": 603,
+					"left": 587,
+					"width": 120,
+					"height": 52,
+					"sizingY": "move",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_USERS_DropUser",
+					"icon": "/RESOURCES/Images/Monitor/DropUser.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_UsersDeconnect.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Ligne2": {
+					"type": "line",
+					"top": 589,
+					"left": 28,
+					"width": 1019,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#888888"
+				},
+				"SearchPickerUser": {
+					"type": "subform",
+					"top": 15,
+					"left": 832,
+					"width": 205,
+					"height": 30,
+					"sizingX": "move",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/SearchPickerUser.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Moni_Users_LB": {
+					"type": "listbox",
+					"top": 74,
+					"left": 26,
+					"width": 1021,
+					"height": 515,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"dataSource": "Form:C1466.user",
+					"currentItemSource": "Form:C1466.userCurrent",
+					"selectedItemsSource": "Form:C1466.userSelection",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Spalte1",
+							"dataSource": "This:C1470.platform",
+							"dataSourceTypeHint": "picture",
+							"width": 33,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf1"
+							},
+							"footer": {
+								"name": "Fußteil1",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte2",
+							"dataSource": "This:C1470.userName",
+							"width": 223,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf2",
+								"text": ":xliff:MONI_USERS_User"
+							},
+							"footer": {
+								"name": "Fußteil2",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte3",
+							"dataSource": "This:C1470.machineName",
+							"width": 188,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf3",
+								"text": ":xliff:MONI_USERS_Machine"
+							},
+							"footer": {
+								"name": "Fußteil3",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte4",
+							"dataSource": "This:C1470.systemUserName",
+							"width": 187,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf4",
+								"text": ":xliff:MONI_USERS_SessionName"
+							},
+							"footer": {
+								"name": "Fußteil4",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte5",
+							"dataSource": "This:C1470.IPAddress",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf5",
+								"text": ":xliff:MONI_USERS_IPAddress"
+							},
+							"footer": {
+								"name": "Fußteil5",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte6",
+							"dataSource": "This:C1470.creationDateTime",
+							"width": 168,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf6",
+								"text": ":xliff:MONI_USERS_LoginDate"
+							},
+							"footer": {
+								"name": "Fußteil6",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte7",
+							"dataSource": "This:C1470.state",
+							"dataSourceTypeHint": "number",
+							"width": 87,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf7",
+								"text": ":xliff:MONI_S4D_State"
+							},
+							"footer": {
+								"name": "Fußteil7",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Moni_UIAction_ProcessKill": {
+					"type": "button",
+					"top": 604,
+					"left": 347,
+					"width": 120,
+					"height": 52,
+					"sizingY": "move",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_PROCESS_KillProcess",
+					"icon": "/RESOURCES/Images/Monitor/KillProcess.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_ProcessKill.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_ProcessPause": {
+					"type": "button",
+					"top": 604,
+					"left": 467,
+					"width": 120,
+					"height": 52,
+					"sizingY": "move",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_PROCESS_SuspendProcess",
+					"icon": "/RESOURCES/Images/Monitor/SuspendProcess.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_ProcessPause.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_ProcessRun": {
+					"type": "button",
+					"top": 604,
+					"left": 587,
+					"width": 120,
+					"height": 52,
+					"sizingY": "move",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_PROCESS_ActivateProcess",
+					"icon": "/RESOURCES/Images/Monitor/ActivateProcess.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/Moni_UIAction_ProcessRun.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"SearchPickerProcess": {
+					"type": "subform",
+					"top": 15,
+					"left": 832,
+					"width": 205,
+					"height": 30,
+					"sizingX": "move",
+					"dataSourceTypeHint": "text",
+					"detailForm": "SearchPicker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/SearchPickerProcess.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Moni_Process_LB": {
+					"type": "listbox",
+					"top": 75,
+					"left": 28,
+					"width": 1009,
+					"height": 514,
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"dataSource": "Form:C1466.process",
+					"currentItemSource": "Form:C1466.processCurrent",
+					"selectedItemsSource": "Form:C1466.processSelection",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Spalte8",
+							"dataSource": "This:C1470.name",
+							"width": 219,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf8",
+								"text": ":xliff:MONI_PROCESS_ProcessName"
+							},
+							"footer": {
+								"name": "Fußteil8",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte9",
+							"dataSource": "This:C1470.sessionName",
+							"width": 187,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf9",
+								"text": ":xliff:MONI_PROCESS_SessionName"
+							},
+							"footer": {
+								"name": "Fußteil9",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte10",
+							"dataSource": "This:C1470.typeName",
+							"width": 188,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf10",
+								"text": ":xliff:MONI_PROCESS_Type"
+							},
+							"footer": {
+								"name": "Fußteil10",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte11",
+							"dataSource": "This:C1470.number",
+							"width": 54,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf11",
+								"text": ":xliff:MONI_PROCESS_ID"
+							},
+							"footer": {
+								"name": "Fußteil11",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte12",
+							"dataSource": "This:C1470.stateText",
+							"width": 187,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf12",
+								"text": ":xliff:MONI_PROCESS_State"
+							},
+							"footer": {
+								"name": "Fußteil12",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte13",
+							"dataSource": "This:C1470.cpuTimeText",
+							"width": 85,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf13",
+								"text": ":xliff:MONI_PROCESS_CPUTime"
+							},
+							"footer": {
+								"name": "Fußteil13",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte14",
+							"dataSource": "This:C1470.cpuUsageText",
+							"width": 74,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf14",
+								"text": ":xliff:MONI_PROCESS_Activity"
+							},
+							"footer": {
+								"name": "Fußteil14",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 170,
+					"left": 0,
+					"width": 1020,
+					"height": 125,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 385,
+					"left": 0,
+					"width": 1020,
+					"height": 136,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 75,
+					"left": 105,
+					"width": 210,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_MNTCE_LastVerification"
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 75,
+					"left": 320,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.maintenance.verify",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_UIAction_VerifyRecords": {
+					"type": "button",
+					"top": 105,
+					"left": 320,
+					"width": 240,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_VerifyRecordsAndIndexes",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_GetVerifyLog": {
+					"type": "button",
+					"top": 105,
+					"left": 586,
+					"width": 210,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_OpenLog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_GetVerifyLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_CompactRecords": {
+					"type": "button",
+					"top": 205,
+					"left": 320,
+					"width": 240,
+					"height": 20,
+					"visibility": "hidden",
+					"text": ":xliff:MONI_MNTCE_CompactData",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_GetCompactLog": {
+					"type": "button",
+					"top": 205,
+					"left": 586,
+					"width": 210,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_OpenLog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_GetCompactLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_RestartServer": {
+					"type": "button",
+					"top": 330,
+					"left": 320,
+					"width": 240,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_RestartServer",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_RestartServer.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_BackupRecords": {
+					"type": "button",
+					"top": 453,
+					"left": 320,
+					"width": 240,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_Backup",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_BackupRecords.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_BackupPref": {
+					"type": "button",
+					"top": 453,
+					"left": 586,
+					"width": 210,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_BackupPref",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_BackupPref.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 175,
+					"left": 320,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.maintenance.compact",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 300,
+					"left": 320,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.system.MONI_App_Uptime",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 135,
+					"left": 320,
+					"width": 640,
+					"height": 27,
+					"stroke": "#333333",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_MNTCE_VerifText"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 175,
+					"left": 105,
+					"width": 210,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_MNTCE_LastCompacting"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 235,
+					"left": 320,
+					"width": 640,
+					"height": 60,
+					"stroke": "#333333",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_MNTCE_CompactText"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 300,
+					"left": 105,
+					"width": 210,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_MNTCE_Uptime"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 360,
+					"left": 320,
+					"width": 640,
+					"height": 26,
+					"stroke": "#333333",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_MNTCE_ServerText"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 430,
+					"left": 105,
+					"width": 210,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_MNTCE_NextBackup"
+				},
+				"Variable26": {
+					"type": "input",
+					"top": 430,
+					"left": 320,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.maintenance.nextBackupText",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text8": {
+					"type": "text",
+					"top": 390,
+					"left": 105,
+					"width": 210,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_MNTCE_LastBackup"
+				},
+				"Variable4": {
+					"type": "input",
+					"top": 390,
+					"left": 320,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.maintenance.lastBackupText",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text9": {
+					"type": "text",
+					"top": 494,
+					"left": 320,
+					"width": 630,
+					"height": 15,
+					"stroke": "#333333",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_MNTCE_BackupText"
+				},
+				"Variable6": {
+					"type": "input",
+					"top": 406,
+					"left": 320,
+					"width": 481,
+					"height": 17,
+					"dataSource": "Form:C1466.maintenance.lastBackupStatus",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text10": {
+					"type": "text",
+					"top": 529,
+					"left": 399,
+					"width": 290,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_MNTCE_RequestLog1"
+				},
+				"Moni_UIAction_DebugLog": {
+					"type": "button",
+					"top": 555,
+					"left": 240,
+					"width": 210,
+					"height": 20,
+					"text": ":xliff:MONI2_Debuglog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_DebugLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_GetDebugLog": {
+					"type": "button",
+					"top": 583,
+					"left": 281,
+					"width": 138,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_OpenLog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_GetDebugLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 623,
+					"left": 320,
+					"width": 640,
+					"height": 34,
+					"stroke": "#333333",
+					"textAlign": "left",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 11,
+					"text": ":xliff:MONI_MNTCE_RequestLogText"
+				},
+				"Moni_UIAction_RequestLog": {
+					"type": "button",
+					"top": 555,
+					"left": 475,
+					"width": 210,
+					"height": 20,
+					"text": ":xliff:MONI2_Requestlog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_RequestLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_GetRequestLog": {
+					"type": "button",
+					"top": 583,
+					"left": 516,
+					"width": 138,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_OpenLog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_GetRequestLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_DiagnosticLog": {
+					"type": "button",
+					"top": 555,
+					"left": 710,
+					"width": 210,
+					"height": 20,
+					"text": ":xliff:MONI2_Diagnosticlog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_DiagnosticLog.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Moni_UIAction_GetDiagnosticLog": {
+					"type": "button",
+					"top": 583,
+					"left": 751,
+					"width": 138,
+					"height": 20,
+					"text": ":xliff:MONI_MNTCE_OpenLog",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_GetDiagnosticLog.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 61,
+					"left": 0,
+					"width": 1020,
+					"height": 119,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 570,
+					"left": 0,
+					"width": 1020,
+					"height": 90,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 180,
+					"left": 0,
+					"width": 1020,
+					"height": 300,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Texte7": {
+					"type": "text",
+					"top": 130,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_Uptime"
+				},
+				"Variable16": {
+					"type": "input",
+					"top": 130,
+					"left": 510,
+					"width": 275,
+					"height": 17,
+					"dataSource": "Form:C1466.system.MONI_App_Uptime",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte21": {
+					"type": "text",
+					"top": 500,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_UsedCacheMemory"
+				},
+				"Variable25": {
+					"type": "input",
+					"top": 525,
+					"left": 510,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.CacheMemoryTotal",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte17": {
+					"type": "text",
+					"top": 350,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_LaunchedAsService"
+				},
+				"Variable18": {
+					"type": "input",
+					"top": 350,
+					"left": 430,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.Service",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte18": {
+					"type": "text",
+					"top": 400,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_Port"
+				},
+				"Variable19": {
+					"type": "input",
+					"top": 400,
+					"left": 430,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.application.portID",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte19": {
+					"type": "text",
+					"top": 375,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_ListeningToIP"
+				},
+				"Variable27": {
+					"type": "input",
+					"top": 375,
+					"left": 430,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.IPtoListen",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte20": {
+					"type": "text",
+					"top": 425,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_SSLEnabled"
+				},
+				"Variable28": {
+					"type": "input",
+					"top": 425,
+					"left": 430,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.SSL",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte14": {
+					"type": "text",
+					"top": 200,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_StructureFile"
+				},
+				"Texte22": {
+					"type": "text",
+					"top": 225,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_DataFile"
+				},
+				"Texte6": {
+					"type": "text",
+					"top": 250,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_LogFile"
+				},
+				"Variable29": {
+					"type": "input",
+					"top": 250,
+					"left": 430,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.journal",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte5": {
+					"type": "text",
+					"top": 590,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_Maximum"
+				},
+				"Variable30": {
+					"type": "input",
+					"top": 590,
+					"left": 510,
+					"width": 200,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.applicationServer.MaxConnect4D",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte23": {
+					"type": "text",
+					"top": 525,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_TotalCacheMemory"
+				},
+				"Variable32": {
+					"type": "input",
+					"top": 500,
+					"left": 510,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.CacheMemoryUsed",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_UIAction_S4D_Publish": {
+					"type": "button",
+					"top": 140,
+					"left": 810,
+					"width": 190,
+					"height": 20,
+					"sizingX": "move",
+					"text": "•••",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_S4D_Publish.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Client_DataFileLocation": {
+					"type": "input",
+					"top": 225,
+					"left": 430,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.data",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Client_StructureLocation": {
+					"type": "input",
+					"top": 201,
+					"left": 430,
+					"width": 640,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.structure",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable33": {
+					"type": "input",
+					"top": 300,
+					"left": 430,
+					"width": 360,
+					"height": 16,
+					"dataSource": "Form:C1466.applicationServer.interpreted",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte28": {
+					"type": "text",
+					"top": 300,
+					"left": 145,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_Mode"
+				},
+				"Texte32": {
+					"type": "text",
+					"top": 615,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_S4D_Used"
+				},
+				"Variable34": {
+					"type": "input",
+					"top": 615,
+					"left": 510,
+					"width": 200,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.applicationServer.CurrentConnect4D",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 200,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_S4D_Configuration"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 500,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_S4D_Memory"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 590,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_S4D_AppServConnections"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 80,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_D0_S4DServer"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 61,
+					"left": 0,
+					"width": 1020,
+					"height": 119,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 410,
+					"left": 0,
+					"width": 1020,
+					"height": 80,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Rectangle9": {
+					"type": "rectangle",
+					"top": 180,
+					"left": 0,
+					"width": 1020,
+					"height": 150,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Moni_UIAction_SQL_StartStop": {
+					"type": "button",
+					"top": 140,
+					"left": 950,
+					"width": 50,
+					"height": 20,
+					"sizingX": "move",
+					"text": "•••",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte33": {
+					"type": "text",
+					"top": 350,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_NumberOfConnections"
+				},
+				"Variable35": {
+					"type": "input",
+					"top": 350,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte34": {
+					"type": "text",
+					"top": 130,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_Uptime"
+				},
+				"Variable36": {
+					"type": "input",
+					"top": 130,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte35": {
+					"type": "text",
+					"top": 105,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_StartingTime"
+				},
+				"Variable37": {
+					"type": "input",
+					"top": 105,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte36": {
+					"type": "text",
+					"top": 80,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_State"
+				},
+				"Variable38": {
+					"type": "input",
+					"top": 80,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte37": {
+					"type": "text",
+					"top": 200,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_AutolaunchedAtStartup"
+				},
+				"Variable39": {
+					"type": "input",
+					"top": 200,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte38": {
+					"type": "text",
+					"top": 250,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_ListeningOnPort"
+				},
+				"Variable40": {
+					"type": "input",
+					"top": 250,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte39": {
+					"type": "text",
+					"top": 225,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_ListeningToIP"
+				},
+				"Variable41": {
+					"type": "input",
+					"top": 225,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte40": {
+					"type": "text",
+					"top": 275,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_SQL_SSLEnabled"
+				},
+				"Variable42": {
+					"type": "input",
+					"top": 275,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte41": {
+					"type": "text",
+					"top": 430,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_OVER_SQLServer"
+				},
+				"Variable43": {
+					"type": "input",
+					"top": 430,
+					"left": 510,
+					"width": 280,
+					"height": 16,
+					"sizingX": "grow",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 200,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_SQL_Configuration"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 350,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_SQL_Connexions"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 430,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_OVER_MaximumConnections"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 80,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_D0_SQLServer"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle11": {
+					"type": "rectangle",
+					"top": 68,
+					"left": 0,
+					"width": 1020,
+					"height": 95,
+					"sizingX": "grow",
+					"stroke": "transparent"
+				},
+				"Rectangle12": {
+					"type": "rectangle",
+					"top": 390,
+					"left": 0,
+					"width": 1020,
+					"height": 148,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Rectangle13": {
+					"type": "rectangle",
+					"top": 163,
+					"left": 0,
+					"width": 1020,
+					"height": 100,
+					"sizingX": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Texte44": {
+					"type": "text",
+					"top": 502,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_LogFormat"
+				},
+				"Variable46": {
+					"type": "input",
+					"top": 502,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.log",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte47": {
+					"type": "text",
+					"top": 130,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_TotalHTTPHits"
+				},
+				"Variable49": {
+					"type": "input",
+					"top": 130,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.httpRequestCount",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "### ### ### ##0;;0",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte48": {
+					"type": "text",
+					"top": 105,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_Uptime"
+				},
+				"Variable50": {
+					"type": "input",
+					"top": 105,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.uptimeText",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte50": {
+					"type": "text",
+					"top": 80,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_State"
+				},
+				"Variable52": {
+					"type": "input",
+					"top": 80,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.status",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte51": {
+					"type": "text",
+					"top": 407,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_AutolaunchedAtStartup"
+				},
+				"Variable53": {
+					"type": "input",
+					"top": 407,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.startMode",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte52": {
+					"type": "text",
+					"top": 456,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_HTTPPort"
+				},
+				"Variable54": {
+					"type": "input",
+					"top": 456,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.options.webPortID",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte53": {
+					"type": "text",
+					"top": 431,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_ListeningToIP"
+				},
+				"Variable55": {
+					"type": "input",
+					"top": 431,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.webIP",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte54": {
+					"type": "text",
+					"top": 278,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_SSLEnabled"
+				},
+				"Variable56": {
+					"type": "input",
+					"top": 278,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.security.HTTPSEnabled",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte55": {
+					"type": "text",
+					"top": 479,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_HTTPSPort"
+				},
+				"Variable57": {
+					"type": "input",
+					"top": 479,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.options.webHTTPSPortID",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable59": {
+					"type": "input",
+					"top": 199,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.web.cache.currentSize",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte57": {
+					"type": "text",
+					"top": 199,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPCacheUsed"
+				},
+				"Variable60": {
+					"type": "input",
+					"top": 174,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.web.cache.maxSize",
+					"dataSourceTypeHint": "number",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte59": {
+					"type": "text",
+					"top": 174,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPCacheMax"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 174,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI2_HTTPCache"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 407,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_HTTP_HTTPServerConfiguration"
+				},
+				"Moni_UIAction_HTTP_StartStop": {
+					"type": "button",
+					"top": 125,
+					"left": 797,
+					"width": 200,
+					"height": 21,
+					"sizingX": "move",
+					"text": "•••",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_HTTP_StartStop.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text23": {
+					"type": "text",
+					"top": 80,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_D0_HTTPServer"
+				},
+				"Variable5": {
+					"type": "input",
+					"top": 222,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.web.cache.enabled",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 222,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPCacheEnabled"
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 299,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPTLSMin"
+				},
+				"Variable7": {
+					"type": "input",
+					"top": 299,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.security.minTLSVersion",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text25": {
+					"type": "text",
+					"top": 278,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI2_HTTPSecurity"
+				},
+				"Texte8": {
+					"type": "text",
+					"top": 320,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPPFS"
+				},
+				"Variable17": {
+					"type": "input",
+					"top": 320,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.security.perfectForwardSecrecy",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte31": {
+					"type": "text",
+					"top": 341,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPHSTS"
+				},
+				"Variable31": {
+					"type": "input",
+					"top": 341,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.security.HSTSEnabled",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte49": {
+					"type": "text",
+					"top": 362,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "right",
+					"text": ":xliff:MONI2_HTTPHSTSAge"
+				},
+				"Variable51": {
+					"type": "input",
+					"top": 362,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.HSTSAge",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Texte42": {
+					"type": "text",
+					"top": 549,
+					"left": 225,
+					"width": 280,
+					"height": 16,
+					"stroke": "#808080",
+					"textAlign": "right",
+					"text": ":xliff:MONI_HTTP_State"
+				},
+				"Variable44": {
+					"type": "input",
+					"top": 549,
+					"left": 510,
+					"width": 340,
+					"height": 16,
+					"dataSource": "Form:C1466.web.SOAPstatus",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Moni_UIAction_SOAP_StartStop": {
+					"type": "button",
+					"top": 558,
+					"left": 797,
+					"width": 200,
+					"height": 21,
+					"sizingX": "move",
+					"text": "•••",
+					"focusable": false,
+					"method": "ObjectMethods/Moni_UIAction_SOAP_StartStop.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text20": {
+					"type": "text",
+					"top": 549,
+					"left": 20,
+					"width": 280,
+					"height": 16,
+					"stroke": "#696969",
+					"textAlign": "left",
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_D0_SOAPServer"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Rectangle14": {
+					"type": "rectangle",
+					"top": 86,
+					"left": 0,
+					"width": 1020,
+					"height": 494,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fill": "#F2F2F2",
+					"stroke": "transparent"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 85,
+					"left": 0,
+					"width": 1020,
+					"height": 1,
+					"sizingX": "grow",
+					"stroke": "#999999",
+					"startPoint": "bottomLeft"
+				},
+				"_RTM_Listbox": {
+					"type": "listbox",
+					"top": 86,
+					"left": 0,
+					"width": 720,
+					"height": 496,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"hideSystemHighlight": true,
+					"hideExtraBlankRows": true,
+					"rowHeight": "24px",
+					"headerHeight": "17px",
+					"dataSource": "Form:C1466.RTM",
+					"currentItemSource": "Form:C1466.RTMSelected",
+					"metaSource": "Monitor_ListboxColor ",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "automatic",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"fill": "#FFFFFF",
+					"verticalAlign": "middle",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"borderStyle": "none",
+					"columns": [
+						{
+							"name": "_RTM_StartTime_T",
+							"dataSource": "This:C1470.startTime",
+							"width": 180,
+							"minWidth": 180,
+							"maxWidth": 32000,
+							"enterable": false,
+							"fill": "#FFFFFF",
+							"verticalAlign": "middle",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange",
+								"onHeaderClick"
+							],
+							"header": {
+								"name": "Header1",
+								"text": ":xliff:MONI_RTM_StartTime_LB",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer9",
+								"timeFormat": "hh_mm_ss",
+								"fill": "#FFFFFF",
+								"verticalAlign": "middle",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "_RTM_Duration_L",
+							"dataSource": "This:C1470.duration",
+							"dataSourceTypeHint": "number",
+							"width": 150,
+							"minWidth": 10,
+							"maxWidth": 10000,
+							"enterable": false,
+							"numberFormat": "###,###,###,##0.#",
+							"fill": "#FFFFFF",
+							"rowStrokeSource": "_RTM_DurationFontColors",
+							"verticalAlign": "middle",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onHeaderClick"
+							],
+							"header": {
+								"name": "Header5",
+								"text": ":xliff:MONI_RTM_Duration_LB",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer10",
+								"timeFormat": "hh_mm_ss",
+								"fill": "#FFFFFF",
+								"verticalAlign": "middle",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						},
+						{
+							"name": "_RTM_Info_T1",
+							"dataSource": "This:C1470.message",
+							"width": 390,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"fill": "#FFFFFF",
+							"verticalAlign": "middle",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange",
+								"onHeaderClick"
+							],
+							"header": {
+								"name": "Header4",
+								"text": ":xliff:MONI_RTM_Info",
+								"verticalAlign": "middle"
+							},
+							"footer": {
+								"name": "Footer18",
+								"timeFormat": "hh_mm_ss",
+								"fill": "#FFFFFF",
+								"verticalAlign": "middle",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				},
+				"WarningTime1": {
+					"type": "picture",
+					"top": 609,
+					"left": 16,
+					"width": 24,
+					"height": 24,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/alert.png"
+				},
+				"WarningTime2": {
+					"type": "text",
+					"top": 613,
+					"left": 50,
+					"width": 490,
+					"height": 17,
+					"visibility": "hidden",
+					"sizingY": "move",
+					"stroke": "#696969",
+					"text": ":xliff:MONI_RTM_Beware"
+				},
+				"SubOpeInfo_1": {
+					"type": "input",
+					"top": 102,
+					"left": 735,
+					"width": 270,
+					"height": 465,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.RTMSelected.details",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 65,
+					"left": 330,
+					"width": 390,
+					"height": 16,
+					"sizingX": "grow",
+					"textAlign": "center",
+					"text": ":xliff:MONI_RTM_MainOperations"
+				},
+				"Text24": {
+					"type": "text",
+					"top": 65,
+					"left": 730,
+					"width": 290,
+					"height": 16,
+					"sizingX": "grow",
+					"textAlign": "center",
+					"text": ":xliff:MONI_RTM_SubOperations"
+				},
+				"Line": {
+					"type": "line",
+					"top": 65,
+					"left": 720,
+					"height": 16,
+					"sizingX": "move",
+					"stroke": "#666666"
+				},
+				"RTM_paused": {
+					"type": "text",
+					"top": 609,
+					"left": 520,
+					"width": 200,
+					"height": 28,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"stroke": "#F9A41F",
+					"textAlign": "center",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": ":xliff:MONI_RTM_Paused"
+				},
+				"splitter": {
+					"type": "button",
+					"top": 58,
+					"left": 720,
+					"width": 3,
+					"height": 529,
+					"sizingY": "grow",
+					"action": "automaticSplitter",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Ligne": {
+					"type": "line",
+					"top": 580,
+					"left": 0,
+					"width": 1020,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#696969"
+				},
+				"BtnPause": {
+					"type": "button",
+					"top": 594,
+					"left": 876,
+					"width": 120,
+					"height": 52,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": " ",
+					"text": ":xliff:MONI_RTM_Pause",
+					"icon": "/RESOURCES/Images/Monitor/SuspendProcess.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/BtnPause.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"BtnSnapshot1": {
+					"type": "button",
+					"top": 594,
+					"left": 746,
+					"width": 120,
+					"height": 52,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": "c",
+					"shortcutAccel": true,
+					"text": ":xliff:MONI_RTM_SnapShot",
+					"icon": "/RESOURCES/images/Monitor/Snap.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"method": "ObjectMethods/BtnSnapshot1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"top": 85,
+					"left": 25,
+					"width": 1021,
+					"height": 563,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"dataSource": "Form:C1466.DBMeasures",
+					"scrollbarHorizontal": "automatic",
+					"alternateFill": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Spalte15",
+							"dataSource": "This:C1470.query",
+							"width": 675,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"alternateFill": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Moni_Measure_Header1",
+								"text": ":XLIFF:MONI2_DBQuery"
+							},
+							"footer": {
+								"name": "Fußteil15",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte16",
+							"dataSource": "This:C1470.count",
+							"dataSourceTypeHint": "number",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"alternateFill": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Moni_Measure_Header2",
+								"text": ":XLIFF:MONI2_DBCount"
+							},
+							"footer": {
+								"name": "Fußteil16",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte17",
+							"dataSource": "This:C1470.duration",
+							"dataSourceTypeHint": "number",
+							"width": 211,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"alternateFill": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Moni_Measure_Header3",
+								"text": ":XLIFF:MONI2_DBDuration"
+							},
+							"footer": {
+								"name": "Fußteil17",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"List Box1": {
+					"type": "listbox",
+					"top": 71,
+					"left": 25,
+					"width": 1033,
+					"height": 577,
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"dataSource": "Form:C1466.LockedRecords",
+					"scrollbarHorizontal": "automatic",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Spalte18",
+							"dataSource": "This:C1470.Table",
+							"width": 274,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Moni_Lock_Header1",
+								"text": ":XLIFF:MONI2_Lock_Table"
+							},
+							"footer": {
+								"name": "Fußteil18",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte19",
+							"dataSource": "This:C1470.User",
+							"width": 602,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Moni_Lock_Header2",
+								"text": ":xliff:MONI2_Lock_User"
+							},
+							"footer": {
+								"name": "Fußteil19",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte20",
+							"dataSource": "This:C1470.Record",
+							"dataSourceTypeHint": "number",
+							"width": 142,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"textAlign": "left",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Moni_Lock_Header3",
+								"text": ":xliff:MONI2_Lock_Record"
+							},
+							"footer": {
+								"name": "Fußteil20",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

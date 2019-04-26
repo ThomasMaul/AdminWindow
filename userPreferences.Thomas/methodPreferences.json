@@ -1,0 +1,407 @@
+﻿{
+	"Sources/Methods/Monitor_InitValues.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 38,
+		"lastSelectedLine": 38,
+		"folding": [
+			13,
+			102,
+			142,
+			182,
+			211,
+			237,
+			311,
+			349
+		],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.882Z"
+	},
+	"Sources/Methods/Monitor_InitValues_Server.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [
+			12,
+			20,
+			23,
+			26,
+			34,
+			39,
+			41,
+			44,
+			123,
+			137,
+			146,
+			155,
+			164,
+			173,
+			182,
+			203,
+			222
+		],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.883Z"
+	},
+	"Sources/Methods/Monitor_runOnServer.4dm": {
+		"startSelection": 9,
+		"endSelection": 57,
+		"firstSelectedLine": 31,
+		"lastSelectedLine": 31,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.888Z"
+	},
+	"Sources/Methods/Monitor_Start.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.890Z"
+	},
+	"Sources/Methods/yytest2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.891Z"
+	},
+	"Sources/Methods/Monitor_ListboxColor.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.893Z"
+	},
+	"Sources/Methods/Compiler_Monitor.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.893Z"
+	},
+	"Sources/Forms/AdminWindow/method.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:37.905Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_1.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.451Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_2.4dm": {
+		"startSelection": 17,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.451Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_3.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.452Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_5.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.453Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_6.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.453Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_8.4dm": {
+		"startSelection": 0,
+		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.453Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_10.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.454Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_4.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.455Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_7.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.455Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Schaltfläche.4dm": {
+		"startSelection": 80,
+		"endSelection": 80,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.457Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersMessage.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.457Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersProcesses.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.458Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersDeconnect.4dm": {
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.459Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/SearchPickerUser.4dm": {
+		"startSelection": 34,
+		"endSelection": 34,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.459Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_ProcessKill.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.460Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_ProcessPause.4dm": {
+		"startSelection": 18,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.461Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_ProcessRun.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.461Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/SearchPickerProcess.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.462Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetVerifyLog.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.463Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetCompactLog.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.464Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_RestartServer.4dm": {
+		"startSelection": 0,
+		"endSelection": 19,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.465Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_BackupRecords.4dm": {
+		"startSelection": 30,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.465Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_BackupPref.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.466Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_DebugLog.4dm": {
+		"startSelection": 43,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.471Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetDebugLog.4dm": {
+		"startSelection": 15,
+		"endSelection": 40,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.471Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_RequestLog.4dm": {
+		"startSelection": 43,
+		"endSelection": 43,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.472Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetRequestLog.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.472Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_DiagnosticLog.4dm": {
+		"startSelection": 43,
+		"endSelection": 43,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.473Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetDiagnosticLog.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.473Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_S4D_Publish.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.474Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_HTTP_StartStop.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.476Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_SOAP_StartStop.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.476Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/BtnPause.4dm": {
+		"startSelection": 42,
+		"endSelection": 42,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.477Z"
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/BtnSnapshot1.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-26T12:33:38.478Z"
+	}
+}

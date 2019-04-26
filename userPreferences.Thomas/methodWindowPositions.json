@@ -1,0 +1,296 @@
+﻿{
+	"Sources/Methods/Monitor_InitValues.4dm": {
+		"left": 1171,
+		"top": 375,
+		"width": 1752,
+		"height": 1670
+	},
+	"Sources/Methods/Monitor_InitValues_Server.4dm": {
+		"left": 197,
+		"top": 727,
+		"width": 1640,
+		"height": 1433
+	},
+	"Sources/Methods/Monitor_SendMessage_Server.4dm": {
+		"left": 1678,
+		"top": 748,
+		"width": 1690,
+		"height": 1173
+	},
+	"Sources/Methods/Monitor_DropUser_Server.4dm": {
+		"left": 1103,
+		"top": 983,
+		"width": 1384,
+		"height": 1076
+	},
+	"Sources/Methods/Monitor_HandleProcess_Server.4dm": {
+		"left": 2116,
+		"top": 947,
+		"width": 1258,
+		"height": 1099
+	},
+	"Sources/Methods/Monitor_runOnServer.4dm": {
+		"left": 1258,
+		"top": 591,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Methods/Monitor_RealToDayHoursMinutes.4dm": {
+		"left": 1389,
+		"top": 360,
+		"width": 1640,
+		"height": 1433
+	},
+	"Sources/Methods/yyytest.4dm": {
+		"left": 1206,
+		"top": 158,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Methods/Monitor_Start.4dm": {
+		"left": 89,
+		"top": 600,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Methods/yytest2.4dm": {
+		"left": 123,
+		"top": 1016,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Methods/yytest3.4dm": {
+		"left": 1452,
+		"top": 1113,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Methods/Monitor_ListboxColor.4dm": {
+		"left": 1006,
+		"top": 286,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Methods/Compiler_Monitor.4dm": {
+		"left": 1261,
+		"top": 708,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Methods/Compiler_test.4dm": {
+		"left": 310,
+		"top": 544,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/method.4dm": {
+		"left": 700,
+		"top": 197,
+		"width": 1027,
+		"height": 1466
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_1.4dm": {
+		"left": 2307,
+		"top": 1199,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_2.4dm": {
+		"left": 396,
+		"top": 230,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_3.4dm": {
+		"left": 2307,
+		"top": 1199,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_5.4dm": {
+		"left": 2307,
+		"top": 1199,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_6.4dm": {
+		"left": 2307,
+		"top": 1199,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_8.4dm": {
+		"left": 2307,
+		"top": 1199,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_10.4dm": {
+		"left": 2307,
+		"top": 1199,
+		"width": 1200,
+		"height": 1179
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_4.4dm": {
+		"left": 306,
+		"top": 398,
+		"width": 1214,
+		"height": 1309
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_7.4dm": {
+		"left": 516,
+		"top": 368,
+		"width": 1413,
+		"height": 1113
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Schaltfläche.4dm": {
+		"left": 561,
+		"top": 805,
+		"width": 1185,
+		"height": 1076
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersMessage.4dm": {
+		"left": 957,
+		"top": 755,
+		"width": 1384,
+		"height": 1076
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersProcesses.4dm": {
+		"left": 403,
+		"top": 805,
+		"width": 1384,
+		"height": 1076
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersDeconnect.4dm": {
+		"left": 403,
+		"top": 805,
+		"width": 1384,
+		"height": 1076
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/SearchPickerUser.4dm": {
+		"left": 750,
+		"top": 604,
+		"width": 1185,
+		"height": 1076
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_ProcessKill.4dm": {
+		"left": 658,
+		"top": 797,
+		"width": 1258,
+		"height": 1099
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_ProcessPause.4dm": {
+		"left": 685,
+		"top": 922,
+		"width": 1258,
+		"height": 1099
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_ProcessRun.4dm": {
+		"left": 685,
+		"top": 922,
+		"width": 1258,
+		"height": 1099
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/SearchPickerProcess.4dm": {
+		"left": 639,
+		"top": 742,
+		"width": 1235,
+		"height": 923
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetVerifyLog.4dm": {
+		"left": 1652,
+		"top": 863,
+		"width": 1384,
+		"height": 1076
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetCompactLog.4dm": {
+		"left": 685,
+		"top": 922,
+		"width": 1258,
+		"height": 1099
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_RestartServer.4dm": {
+		"left": 569,
+		"top": 571,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_BackupRecords.4dm": {
+		"left": 1260,
+		"top": 766,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_BackupPref.4dm": {
+		"left": 569,
+		"top": 571,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_DebugLog.4dm": {
+		"left": 1649,
+		"top": 751,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetDebugLog.4dm": {
+		"left": 1057,
+		"top": 1141,
+		"width": 1060,
+		"height": 1109
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_RequestLog.4dm": {
+		"left": 1364,
+		"top": 666,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetRequestLog.4dm": {
+		"left": 1364,
+		"top": 666,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_DiagnosticLog.4dm": {
+		"left": 569,
+		"top": 571,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetDiagnosticLog.4dm": {
+		"left": 569,
+		"top": 571,
+		"width": 1060,
+		"height": 1249
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_S4D_Publish.4dm": {
+		"left": 1417,
+		"top": 672,
+		"width": 1640,
+		"height": 1433
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_HTTP_StartStop.4dm": {
+		"left": 1905,
+		"top": 664,
+		"width": 1640,
+		"height": 1433
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_SOAP_StartStop.4dm": {
+		"left": 1303,
+		"top": 1163,
+		"width": 1640,
+		"height": 1433
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/BtnPause.4dm": {
+		"left": 1568,
+		"top": 946,
+		"width": 1685,
+		"height": 1016
+	},
+	"Sources/Forms/AdminWindow/ObjectMethods/BtnSnapshot1.4dm": {
+		"left": 380,
+		"top": 803,
+		"width": 1685,
+		"height": 1016
+	}
+}

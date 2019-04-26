@@ -1,0 +1,13 @@
+//%attributes = {"invisible":true}
+C_TEXT:C284(Monitor_InitValues ;$1;$2)
+C_TEXT:C284(Monitor_InitValues_Server ;$1)
+C_OBJECT:C1216(Monitor_InitValues_Server ;$0)
+C_TEXT:C284(Monitor_SendMessage_Server ;$1;$2)
+C_TEXT:C284(Monitor_DropUser_Server ;$1)
+C_LONGINT:C283(Monitor_HandleProcess_Server ;$1)
+C_TEXT:C284(Monitor_HandleProcess_Server ;$2)
+C_TEXT:C284(Monitor_runOnServer ;$1)
+C_TEXT:C284(Monitor_RealToDayHoursMinutes ;$0)
+C_LONGINT:C283(Monitor_RealToDayHoursMinutes ;$1)
+C_BOOLEAN:C305(Monitor_RealToDayHoursMinutes ;$2)
+C_OBJECT:C1216(Monitor_ListboxColor ;$0;$1)
