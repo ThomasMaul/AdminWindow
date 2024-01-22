@@ -1,6 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="" uuid="8CF3FF0CC1C04B888F0048FEACCCA21A" collation_locale="de">
+<base name="AdminWindow" uuid="8CF3FF0CC1C04B888F0048FEACCCA21A" collation_locale="de">
+	<schema name="DEFAULT_SCHEMA"/>
 	<table name="Tabelle_1" uuid="4FCDD2D2F50C4938869E99F27016CF39" id="1">
 		<field name="ID" uuid="AC02169C9C984F58AA56B2FE8EF9F81B" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
 		<field name="Feld_2" uuid="9FDD987FA6614F6B89A1268D844BA91C" type="10" limiting_length="255" never_null="true" id="2"/>

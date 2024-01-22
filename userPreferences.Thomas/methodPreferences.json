@@ -1,48 +1,21 @@
-﻿{
+{
 	"Sources/Methods/Monitor_InitValues.4dm": {
-		"startSelection": 7,
-		"endSelection": 7,
-		"firstSelectedLine": 38,
-		"lastSelectedLine": 38,
-		"folding": [
-			13,
-			102,
-			142,
-			182,
-			211,
-			237,
-			311,
-			349
-		],
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-26T12:33:37.882Z"
+		"stamp": "2024-01-22T07:58:22.934Z"
 	},
 	"Sources/Methods/Monitor_InitValues_Server.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 22,
-		"lastSelectedLine": 22,
-		"folding": [
-			12,
-			20,
-			23,
-			26,
-			34,
-			39,
-			41,
-			44,
-			123,
-			137,
-			146,
-			155,
-			164,
-			173,
-			182,
-			203,
-			222
-		],
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 50,
+		"lastSelectedLine": 50,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-26T12:33:37.883Z"
+		"stamp": "2024-01-22T08:00:31.479Z"
 	},
 	"Sources/Methods/Monitor_runOnServer.4dm": {
 		"startSelection": 9,

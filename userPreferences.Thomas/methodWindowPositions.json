@@ -1,15 +1,15 @@
-﻿{
+{
 	"Sources/Methods/Monitor_InitValues.4dm": {
 		"left": 1171,
 		"top": 375,
 		"width": 1752,
-		"height": 1670
+		"height": 1269
 	},
 	"Sources/Methods/Monitor_InitValues_Server.4dm": {
-		"left": 197,
-		"top": 727,
+		"left": 320,
+		"top": 135,
 		"width": 1640,
-		"height": 1433
+		"height": 1269
 	},
 	"Sources/Methods/Monitor_SendMessage_Server.4dm": {
 		"left": 1678,
