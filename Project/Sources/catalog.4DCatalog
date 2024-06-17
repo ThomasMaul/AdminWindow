@@ -20,7 +20,7 @@
 			<table_ref uuid="4FCDD2D2F50C4938869E99F27016CF39" name="Tabelle_1"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="AdminWindow" structure_file_name="AdminWindow" data_file_path=":AdminWindow.4DD">
+	<base_extra package_name="AdminWindow" structure_file_name="AdminWindow" data_file_path=":AdminWindow.4DD">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
 </base>

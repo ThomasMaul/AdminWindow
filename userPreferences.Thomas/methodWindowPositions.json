@@ -292,5 +292,23 @@
 		"top": 803,
 		"width": 1685,
 		"height": 1016
+	},
+	"Sources/Methods/__buildComponent.4dm": {
+		"left": 1068,
+		"top": 186,
+		"width": 1623,
+		"height": 1218
+	},
+	"Sources/Classes/_Build.4dm": {
+		"left": 159,
+		"top": 116,
+		"width": 1892,
+		"height": 1257
+	},
+	"Sources/Methods/test.4dm": {
+		"left": 1170,
+		"top": 111,
+		"width": 1374,
+		"height": 1218
 	}
 }

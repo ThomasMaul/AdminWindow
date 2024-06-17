@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="3">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
 	<com.4d>
 		<deployment>
 			<options/>
 		</deployment>
 		<compiler>
-			<options compilation_path="3"/>
+			<options compilation_path="3" target="all"/>
 		</compiler>
 	</com.4d>
 </preferences>

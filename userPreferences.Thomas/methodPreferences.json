@@ -376,5 +376,38 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-26T12:33:38.478Z"
+	},
+	"Sources/Methods/__buildComponent.4dm": {
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 90,
+		"lastSelectedLine": 90,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2024-06-17T10:11:02.688Z"
+	},
+	"Sources/Classes/_Build.4dm": {
+		"startSelection": 89,
+		"endSelection": 89,
+		"firstSelectedLine": 54,
+		"lastSelectedLine": 54,
+		"folding": [
+			4,
+			28,
+			100,
+			127,
+			141
+		],
+		"bookmarks": [],
+		"stamp": "2024-06-17T09:12:25.298Z"
+	},
+	"Sources/Methods/test.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2024-06-17T08:46:15.043Z"
 	}
 }
