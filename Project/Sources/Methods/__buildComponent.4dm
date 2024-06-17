@@ -41,6 +41,11 @@ convert img to be read only
 zip
 */
 
+If (Is Windows:C1573)
+	ALERT:C41("It is only possible on Mac to create a signed/notarized .img file, so we stop here")
+	return 
+End if 
+
 var $builder : cs:C1710._Build
 
 $builder:=cs:C1710._Build.new()
@@ -71,36 +76,29 @@ If ($error.success=True:C214)
 	$error:=$builder.Zip($sourcepath; $targetpath)
 End if 
 
-// for Mac
-If (Is Windows:C1573)
-	ALERT:C41("It is only possible on Mac to create a signed/notarized .img file, so we stop here")
-Else 
-	
-	// run only on Mac
-	If ($error.success=True:C214)
-		Progress SET MESSAGE($progress; "Build IMG...")
-		var $tempimgpath : Text:=$sourcefile.parent.parent.platformPath+"tmp.dmg"
-		$error:=$builder.CreateImage($sourcepath; $tempimgpath; $sourcefile.name)
-	End if 
-	
-	If ($error.success=True:C214)
-		Progress SET MESSAGE($progress; "Notarize and wait for Apple's approval...")
-		$error:=$builder.Notarize($tempimgpath)
-	End if 
-	
-	If ($error.success=True:C214)
-		$error:=$builder.Staple($tempimgpath)
-	End if 
-	
-	If ($error.success=True:C214)
-		var $finalimgpath : Text:=$sourcefile.parent.parent.platformPath+$sourcefile.name+".dmg"
-		$error:=$builder.ConvertImage($tempimgpath; $finalimgpath)
-		If ($error.success=True:C214)
-			DELETE DOCUMENT:C159($tempimgpath)
-		End if 
-	End if 
+// run only on Mac
+If ($error.success=True:C214)
+	Progress SET MESSAGE($progress; "Build IMG...")
+	var $tempimgpath : Text:=$sourcefile.parent.parent.platformPath+"tmp.dmg"
+	$error:=$builder.CreateImage($sourcepath; $tempimgpath; $sourcefile.name)
 End if 
 
+If ($error.success=True:C214)
+	Progress SET MESSAGE($progress; "Notarize and wait for Apple's approval...")
+	$error:=$builder.Notarize($tempimgpath)
+End if 
+
+If ($error.success=True:C214)
+	$error:=$builder.Staple($tempimgpath)
+End if 
+
+If ($error.success=True:C214)
+	var $finalimgpath : Text:=$sourcefile.parent.parent.platformPath+$sourcefile.name+".dmg"
+	$error:=$builder.ConvertImage($tempimgpath; $finalimgpath)
+	If ($error.success=True:C214)
+		DELETE DOCUMENT:C159($tempimgpath)
+	End if 
+End if 
 
 
 Progress QUIT($progress)

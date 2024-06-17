@@ -378,13 +378,13 @@
 		"stamp": "2019-04-26T12:33:38.478Z"
 	},
 	"Sources/Methods/__buildComponent.4dm": {
-		"startSelection": 37,
-		"endSelection": 37,
-		"firstSelectedLine": 90,
-		"lastSelectedLine": 90,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 48,
+		"lastSelectedLine": 48,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2024-06-17T10:11:02.688Z"
+		"stamp": "2024-06-17T10:24:54.819Z"
 	},
 	"Sources/Classes/_Build.4dm": {
 		"startSelection": 89,

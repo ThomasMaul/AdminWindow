@@ -13,3 +13,4 @@ The page Real Time Monitor behaves different, it shows always with peak time (op
 ![alt text](https://github.com/ThomasMaul/AdminWindow/blob/master/Docu/image011.png "Screenshot")
 
 Note: project requires 4D v17 R5 or newer.
+Precompiled build created for 4D 20 R5 or newer. This precompiled build is signed and notarized, so directly useable on Mac (using the image).
