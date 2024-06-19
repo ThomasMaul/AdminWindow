@@ -31,14 +31,19 @@ you might need to start Xcode to accept Apple contract changes or update expired
 /* JOB:
 Build (and sign)
 
-// for Mac user (also useable on Windows if expanded on Mac)
-create img
-upload img for notarize
-staple img
-convert img to be read only
-
-// for Win user
+// useable on both Mac and Windows
 zip
+// only if running on Mac: upload zip for notarize
+
+// for Mac user (also useable on Windows if expanded on Mac)
+create dmg
+upload dmg for notarize
+staple dmg
+convert dmg to be read only
+
+// finally we have a zip, useable on both Mac and Windows. The zip was uploaded to Apple (if createdon Mac) for notarisation
+// but the zip is not (cannot be) stapled, so if downloaded for first run, the downloaded version needs to be checked with Apple servers
+// the dmg is stapled, so can be run even without internet connections, as it has a flag accepted by the macOS
 */
 
 If (Is Windows:C1573)
@@ -78,13 +83,18 @@ End if
 
 // run only on Mac
 If ($error.success=True:C214)
+	Progress SET MESSAGE($progress; "Notarize zip and wait for Apple's approval...")
+	$error:=$builder.Notarize($targetpath)
+End if 
+
+If ($error.success=True:C214)
 	Progress SET MESSAGE($progress; "Build IMG...")
 	var $tempimgpath : Text:=$sourcefile.parent.parent.platformPath+"tmp.dmg"
 	$error:=$builder.CreateImage($sourcepath; $tempimgpath; $sourcefile.name)
 End if 
 
 If ($error.success=True:C214)
-	Progress SET MESSAGE($progress; "Notarize and wait for Apple's approval...")
+	Progress SET MESSAGE($progress; "Notarize dmg and wait for Apple's approval...")
 	$error:=$builder.Notarize($tempimgpath)
 End if 
 

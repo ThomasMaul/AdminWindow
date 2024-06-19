@@ -127,6 +127,11 @@ Function CreateImage($pathContent : Text; $pathImg : Text; $name : Text)->$error
 	
 Function ConvertImage($pathTempImg : Text; $pathFinalImg : Text)->$error : Object
 	// hdiutil convert /Users/thomas/Documents/4D/Komponenten/AdminWindow_Build/tmp.dmg -format UDZO -o /Users/thomas/Documents/4D/Komponenten/AdminWindow_Build/Component.dmg
+	// delete target if exists...
+	If (Test path name:C476($pathFinalImg)=Is a document:K24:1)
+		DELETE DOCUMENT:C159($pathFinalImg)
+	End if 
+	
 	var $in; $out; $err; $cmd; $source : Text
 	$cmd:="hdiutil convert '"+Convert path system to POSIX:C1106($pathTempImg)+"' -format UDZO -o '"+Convert path system to POSIX:C1106($pathFinalImg)+"'"
 	$in:=""

@@ -1,3 +1,15 @@
 {
-	"editors": []
+	"editors": [
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483641,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "__buildComponent"
+			}
+		}
+	]
 }
