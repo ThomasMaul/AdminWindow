@@ -1,18 +1,18 @@
 {
 	"Sources/Methods/Monitor_InitValues.4dm": {
-		"startSelection": 29,
-		"endSelection": 29,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 18,
+		"endSelection": 43,
+		"firstSelectedLine": 14,
+		"lastSelectedLine": 14,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2024-01-22T07:58:22.934Z"
 	},
 	"Sources/Methods/Monitor_InitValues_Server.4dm": {
-		"startSelection": 14,
-		"endSelection": 14,
-		"firstSelectedLine": 50,
-		"lastSelectedLine": 50,
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2024-01-22T08:00:31.479Z"
@@ -63,13 +63,13 @@
 		"stamp": "2019-04-26T12:33:37.893Z"
 	},
 	"Sources/Forms/AdminWindow/method.4dm": {
-		"startSelection": 22,
-		"endSelection": 22,
-		"firstSelectedLine": 20,
-		"lastSelectedLine": 20,
+		"startSelection": 0,
+		"endSelection": 18,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-26T12:33:37.905Z"
+		"stamp": "2024-01-22T07:56:44.426Z"
 	},
 	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_1.4dm": {
 		"startSelection": 0,
@@ -81,13 +81,13 @@
 		"stamp": "2019-04-26T12:33:38.451Z"
 	},
 	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_2.4dm": {
-		"startSelection": 17,
+		"startSelection": 0,
 		"endSelection": 0,
 		"firstSelectedLine": 0,
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-26T12:33:38.451Z"
+		"stamp": "2024-01-22T07:56:44.424Z"
 	},
 	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_Toolbar_3.4dm": {
 		"startSelection": 0,
@@ -387,10 +387,10 @@
 		"stamp": "2024-06-19T06:20:14.874Z"
 	},
 	"Sources/Classes/_Build.4dm": {
-		"startSelection": 29,
-		"endSelection": 29,
-		"firstSelectedLine": 72,
-		"lastSelectedLine": 72,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 32,
+		"lastSelectedLine": 32,
 		"folding": [
 			4,
 			28,
@@ -398,7 +398,7 @@
 			146
 		],
 		"bookmarks": [],
-		"stamp": "2024-06-19T06:24:12.091Z"
+		"stamp": "2024-08-08T12:48:30.024Z"
 	},
 	"Sources/Methods/test.4dm": {
 		"startSelection": 0,

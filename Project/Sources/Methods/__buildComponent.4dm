@@ -87,6 +87,7 @@ If ($error.success=True:C214)
 	$error:=$builder.Notarize($targetpath)
 End if 
 
+if(false)// we do zip only, skip img
 If ($error.success=True:C214)
 	Progress SET MESSAGE($progress; "Build IMG...")
 	var $tempimgpath : Text:=$sourcefile.parent.parent.platformPath+"tmp.dmg"
@@ -109,7 +110,7 @@ If ($error.success=True:C214)
 		DELETE DOCUMENT:C159($tempimgpath)
 	End if 
 End if 
-
+end if
 
 Progress QUIT($progress)
 
