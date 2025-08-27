@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="6">
 	<com.4d>
 		<deployment>
 			<options/>
 		</deployment>
 		<compiler>
-			<options compilation_path="3" target="all"/>
+			<options compilation_path="4" target="all"/>
 		</compiler>
+		<database>
+			<misc mac_use_lf="true" no_bom="true" non_blocking_printing="true" prefer_null_than_blank_values="false" split_catalog="true" standard_xpath="true"/>
+		</database>
 	</com.4d>
 </preferences>

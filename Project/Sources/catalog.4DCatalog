@@ -8,12 +8,7 @@
 		<field name="Feld_3" uuid="09E29534217D4FED900E7D9F19B5AC5F" type="10" limiting_length="255" never_null="true" id="3"/>
 		<field name="Feld_4" uuid="3C89AB0E298B44BD80D15987762CBA9D" type="10" limiting_length="255" never_null="true" id="4"/>
 		<primary_key field_name="ID" field_uuid="AC02169C9C984F58AA56B2FE8EF9F81B"/>
-		<table_extra input_form="Eingabe" output_form="Ausgabe">
-			<editor_table_info displayable_fields_count="6">
-				<color red="255" green="255" blue="255" alpha="0"/>
-				<coordinates left="230.33203125" top="75.97265625" width="120" height="167.33203125"/>
-			</editor_table_info>
-		</table_extra>
+		<table_extra input_form="Eingabe" output_form="Ausgabe"/>
 	</table>
 	<index kind="regular" unique_keys="true" uuid="D308268825E6465A9835C594A5F22D6E" type="7">
 		<field_ref uuid="AC02169C9C984F58AA56B2FE8EF9F81B" name="ID">

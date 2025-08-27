@@ -1,7 +1,7 @@
 {
 	"Sources/Methods/Monitor_InitValues.4dm": {
-		"left": 285,
-		"top": 329,
+		"left": 432,
+		"top": 383,
 		"width": 1526,
 		"height": 981
 	},
@@ -12,10 +12,10 @@
 		"height": 1036
 	},
 	"Sources/Methods/Monitor_SendMessage_Server.4dm": {
-		"left": 1678,
-		"top": 748,
-		"width": 1690,
-		"height": 1173
+		"left": 1426,
+		"top": 340,
+		"width": 1371,
+		"height": 644
 	},
 	"Sources/Methods/Monitor_DropUser_Server.4dm": {
 		"left": 1103,
@@ -24,22 +24,22 @@
 		"height": 1076
 	},
 	"Sources/Methods/Monitor_HandleProcess_Server.4dm": {
-		"left": 2116,
-		"top": 947,
+		"left": 1808,
+		"top": 661,
 		"width": 1258,
 		"height": 1099
 	},
 	"Sources/Methods/Monitor_runOnServer.4dm": {
-		"left": 1258,
-		"top": 591,
+		"left": 887,
+		"top": 333,
 		"width": 1060,
 		"height": 1249
 	},
 	"Sources/Methods/Monitor_RealToDayHoursMinutes.4dm": {
-		"left": 1389,
-		"top": 360,
+		"left": 482,
+		"top": 213,
 		"width": 1640,
-		"height": 1433
+		"height": 1128
 	},
 	"Sources/Methods/yyytest.4dm": {
 		"left": 1206,
@@ -48,8 +48,8 @@
 		"height": 1249
 	},
 	"Sources/Methods/Monitor_Start.4dm": {
-		"left": 89,
-		"top": 600,
+		"left": 714,
+		"top": 572,
 		"width": 1060,
 		"height": 1249
 	},
@@ -68,18 +68,6 @@
 	"Sources/Methods/Monitor_ListboxColor.4dm": {
 		"left": 1006,
 		"top": 286,
-		"width": 1060,
-		"height": 1249
-	},
-	"Sources/Methods/Compiler_Monitor.4dm": {
-		"left": 1261,
-		"top": 708,
-		"width": 1060,
-		"height": 1249
-	},
-	"Sources/Methods/Compiler_test.4dm": {
-		"left": 310,
-		"top": 544,
 		"width": 1060,
 		"height": 1249
 	},
@@ -150,8 +138,8 @@
 		"height": 1076
 	},
 	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_UsersMessage.4dm": {
-		"left": 957,
-		"top": 755,
+		"left": 582,
+		"top": 545,
 		"width": 1384,
 		"height": 1076
 	},
@@ -234,8 +222,8 @@
 		"height": 1249
 	},
 	"Sources/Forms/AdminWindow/ObjectMethods/Moni_UIAction_GetDebugLog.4dm": {
-		"left": 1057,
-		"top": 1141,
+		"left": 969,
+		"top": 718,
 		"width": 1060,
 		"height": 1109
 	},
@@ -310,5 +298,17 @@
 		"top": 111,
 		"width": 1374,
 		"height": 1218
+	},
+	"Trash/Methods/(Compiler_Monitor).4dm": {
+		"left": 1261,
+		"top": 708,
+		"width": 1060,
+		"height": 1249
+	},
+	"Trash/Methods/(Compiler_test).4dm": {
+		"left": 310,
+		"top": 544,
+		"width": 1060,
+		"height": 1249
 	}
 }

@@ -1,31 +1,6 @@
 {
 	"editors": [
 		{
-			"type": "method",
-			"id": 2147483639,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "Monitor_InitValues_Server"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483646,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "Monitor_InitValues"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483623,
-			"codeDescriptor": {
-				"type": 3,
-				"formName": "AdminWindow",
-				"methodPath": "/SOURCES/Forms/AdminWindow/method.4dm"
-			}
-		},
-		{
 			"type": "form",
 			"id": 223,
 			"formName": "AdminWindow"

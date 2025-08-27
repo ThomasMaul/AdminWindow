@@ -1,7 +1,5 @@
 //%attributes = {"invisible":true,"executedOnServer":true}
-C_TEXT:C284($1)  // job
-
-C_LONGINT:C283($status)
+#DECLARE($job : Text)
 
 Case of 
 	: ($1="Backup")
@@ -14,27 +12,27 @@ Case of
 		VERIFY CURRENT DATA FILE:C1008
 		
 	: ($1="DebugLog")
-		$status:=Get database parameter:C643(Debug log recording:K37:34)
+		var $status:=Get database parameter:C643(Debug log recording:K37:34)
 		If ($status=0)
-			SET DATABASE PARAMETER:C642(Debug log recording:K37:34;3)
+			SET DATABASE PARAMETER:C642(Debug log recording:K37:34; 3)
 		Else 
-			SET DATABASE PARAMETER:C642(Debug log recording:K37:34;0)
+			SET DATABASE PARAMETER:C642(Debug log recording:K37:34; 0)
 		End if 
 		
 	: ($1="RequestLog")
 		$status:=Get database parameter:C643(4D Server log recording:K37:28)
 		If ($status=0)
-			SET DATABASE PARAMETER:C642(4D Server log recording:K37:28;1)
+			SET DATABASE PARAMETER:C642(4D Server log recording:K37:28; 1)
 		Else 
-			SET DATABASE PARAMETER:C642(4D Server log recording:K37:28;0)
+			SET DATABASE PARAMETER:C642(4D Server log recording:K37:28; 0)
 		End if 
 		
 	: ($1="DiagnosticLog")
 		$status:=Get database parameter:C643(Diagnostic log recording:K37:69)
 		If ($status=0)
-			SET DATABASE PARAMETER:C642(Diagnostic log recording:K37:69;1)
+			SET DATABASE PARAMETER:C642(Diagnostic log recording:K37:69; 1)
 		Else 
-			SET DATABASE PARAMETER:C642(Diagnostic log recording:K37:69;0)
+			SET DATABASE PARAMETER:C642(Diagnostic log recording:K37:69; 0)
 		End if 
 		
 	: ($1="AllowAppServerConnect")
